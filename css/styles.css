@@ -190,6 +190,51 @@ nav a:hover {
 }
 
 
+#about-me {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.container-about {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.profile-picture {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #ddd;
+}
+
+.bio {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.bio h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.bio p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
 /* Message Us Form */
 .message {
     margin: 50px;
