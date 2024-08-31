@@ -14,7 +14,7 @@ body {
 
 /* Header and Navigation Bar */
 header {
-    background: #00376b;
+    background-color: rgba(0, 52, 95, 0.701);
     color: #fff;
     margin: auto 0;
     padding: 1rem 5vw;
