@@ -47,3 +47,24 @@ function showDivs(n) {
 setInterval(() => {
     plusDivs(1);
 }, 2000);
+
+// hamburger menu
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburgerMenu = document.querySelector(".hamburger-menu");
+    const navMenu = document.querySelector("nav .list");
+  
+    hamburgerMenu.addEventListener("click", () => {
+      navMenu.classList.toggle("show");
+      hamburgerMenu.classList.toggle("active");
+    });
+  
+    document.addEventListener("click", (event) => {
+      if (
+        !hamburgerMenu.contains(event.target) &&
+        !navMenu.contains(event.target)
+      ) {
+        navMenu.classList.remove("show");
+        hamburgerMenu.classList.remove("active");
+      }
+    });
+  });
