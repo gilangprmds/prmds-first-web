@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
         `;
         // Greet the user with their name
         let userName = name;
-        document.getElementById("user-name1").textContent = userName || 'Guest';
-        document.getElementById("user-name2").textContent = userName || 'Guest';
-        document.getElementById("user-name3").textContent = userName || 'Guest';
+        document.getElementById("user-name1").textContent = userName + ("!") || 'Guest';
+        document.getElementById("user-name2").textContent = userName + ("!") || 'Guest';
+        document.getElementById("user-name3").textContent = userName + ("!") || 'Guest';
     });
 
 });
