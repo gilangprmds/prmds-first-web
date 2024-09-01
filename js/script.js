@@ -20,8 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
             <p>Pesan: ${pesan}</p>
         `;
         // Greet the user with their name
-        const userName = name;
-        document.getElementById('userName').textContent = userName || 'Guest';
+        let userName = name;
+        document.getElementById("user-name1").textContent = userName || 'Guest';
+        document.getElementById("user-name2").textContent = userName || 'Guest';
+        document.getElementById("user-name3").textContent = userName || 'Guest';
     });
 
 });
