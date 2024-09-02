@@ -233,7 +233,7 @@ nav a:hover {
 }
 
 .container-about {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -423,16 +423,24 @@ footer a {
     }
 
     .profile {
-        margin: 10px;
+        margin: 20px;
 
     }
 
+    .profile_container {
+        font-size: 15px;
+    }
+
     .achievement {
-        margin: 10px;
+        margin: 20px;
     }
 
     .container-about {
         flex-direction: column;
+    }
+
+    .message {
+        margin: 20px;
     }
 
     .message-container {
