@@ -422,8 +422,17 @@ footer a {
         width: 100vw;
     }
 
-    .facilities {
-        flex-wrap: wrap;
+    .profile {
+        margin: 10px;
+
+    }
+
+    .achievement {
+        margin: 10px;
+    }
+
+    .container-about {
+        flex-direction: column;
     }
 
     .message-container {
